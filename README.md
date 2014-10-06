@@ -1,4 +1,4 @@
-ExemploWebserviceREST
+API REST - WEB API
 =====================
 
-Trabalho efetuado para a aula de interoperabilidade para a demonstração de como implementar um webservice REST
+Exemplo básico de implementação de um serviço REST utilizando Visual Studio e Web API
