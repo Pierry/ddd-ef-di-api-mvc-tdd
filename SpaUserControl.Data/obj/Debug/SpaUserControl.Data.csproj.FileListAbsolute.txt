@@ -1,0 +1,16 @@
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserControl.Data.dll.config
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserControl.Data.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserControl.Data.pdb
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\EntityFramework.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserControl.Domain.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserControl.Common.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserControl.Domain.pdb
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\EntityFramework.xml
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\obj\Debug\SpaUserControl.Data.csprojResolveAssemblyReference.cache
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\obj\Debug\SpaUserControl.Data.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\obj\Debug\SpaUserControl.Data.pdb
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserDb.mdf
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Data\bin\Debug\SpaUserDb_log.ldf

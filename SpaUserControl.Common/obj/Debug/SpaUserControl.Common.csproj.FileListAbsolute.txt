@@ -1,0 +1,7 @@
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Common\bin\Debug\SpaUserControl.Common.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Common\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csprojResolveAssemblyReference.cache
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.Resources.Notifications.resources
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csproj.GenerateResource.Cache
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.pdb

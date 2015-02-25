@@ -1,0 +1,7 @@
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Domain\bin\Debug\SpaUserControl.Domain.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Domain\bin\Debug\SpaUserControl.Domain.pdb
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Domain\bin\Debug\SpaUserControl.Common.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Domain\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Domain\obj\Debug\SpaUserControl.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Domain\obj\Debug\SpaUserControl.Domain.dll
+C:\Users\Pierry\Documents\Repositorios\SpaUserControl\SpaUserControl.Domain\obj\Debug\SpaUserControl.Domain.pdb
