@@ -136,6 +136,22 @@ namespace SpaUserControl.Common.Validation
             }
         }
 
+        public static void AssertArgumentNotZero(int value, string message)
+        {
+            if (value == 0)
+            {
+                throw new InvalidOperationException(message);
+            }
+        }
+
+        public static void AssertArgumentNotZero(decimal value, string message)
+        {
+            if (value == 0)
+            {
+                throw new InvalidOperationException(message);
+            }
+        }
+
         protected void SelfAssertArgumentEquals(object object1, object object2, string message)
         {
             AssertArgumentEquals(object1, object2, message);

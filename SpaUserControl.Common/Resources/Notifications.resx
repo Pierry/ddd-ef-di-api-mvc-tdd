@@ -129,6 +129,15 @@
   <data name="InvalidPassword" xml:space="preserve">
     <value>Senha inválida</value>
   </data>
+  <data name="IsEmpty" xml:space="preserve">
+    <value>Campo está vazio</value>
+  </data>
+  <data name="IsZero" xml:space="preserve">
+    <value>Campo está zerado</value>
+  </data>
+  <data name="NotNull" xml:space="preserve">
+    <value>Campo nulo</value>
+  </data>
   <data name="PasswordConfirmation" xml:space="preserve">
     <value>Senha não são iguais</value>
   </data>

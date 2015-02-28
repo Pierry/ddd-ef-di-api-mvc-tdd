@@ -11,7 +11,7 @@ namespace SpaUserControl.Data.Context.Map
         {
             ToTable("User");
 
-            Property(x => x.Id)
+            Property(x => x.UserId)
                 .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
             Property(x => x.Name)

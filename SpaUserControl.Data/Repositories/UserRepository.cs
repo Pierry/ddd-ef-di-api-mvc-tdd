@@ -18,7 +18,7 @@ namespace SpaUserControl.Data.Repositories
 
         public User Get(Guid id)
         {
-            return _context.Users.FirstOrDefault(x => x.IdGuid == id);
+            return _context.Users.FirstOrDefault(x => x.UserIdGuid == id);
         }
 
         public void Create(User user)
