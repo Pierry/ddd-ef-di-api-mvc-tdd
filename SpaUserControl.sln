@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Common", "Sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Data", "SpaUserControl.Data\SpaUserControl.Data.csproj", "{07B8F4D1-8D6A-4039-A129-A745C9BCE720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.WebApi", "SpaUserControl.WebApi\SpaUserControl.WebApi.csproj", "{D0307B92-396A-41C0-979C-3410490FA78F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Owin", "SpaUserControl.WebApi\SpaUserControl.Owin.csproj", "{D0307B92-396A-41C0-979C-3410490FA78F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaUserControl.Services", "SpaUserControl.Services\SpaUserControl.Services.csproj", "{C5478050-5D8C-46AB-98A4-F4625976749E}"
 EndProject

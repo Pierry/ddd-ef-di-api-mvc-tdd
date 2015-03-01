@@ -43,7 +43,14 @@
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Interfaces\Repositories\IItemRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IOrderRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IProductRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
     <Compile Include="Interfaces\Repositories\IUserRepository.cs" />
+    <Compile Include="Interfaces\Services\IItemService.cs" />
+    <Compile Include="Interfaces\Services\IOrderService.cs" />
+    <Compile Include="Interfaces\Services\IProductService.cs" />
     <Compile Include="Interfaces\Services\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

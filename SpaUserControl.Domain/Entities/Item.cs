@@ -10,7 +10,7 @@ namespace SpaUserControl.Domain.Entities
         public Guid ItemGuid { get; set; }
         public Product Product { get; set; }
         public Order Order { get; set; }
-        public int Qtd { get; set; }
+        public int Amont { get; set; }
         public decimal Total { get; private set; }
 
         protected Item()
@@ -18,21 +18,19 @@ namespace SpaUserControl.Domain.Entities
 
         }
 
-        public Item(Product product, Order order, int qtd)
+        public Item(Product product, Order order, int amont)
         {
             Product = product;
             Order = order;
-            Qtd = qtd;
-            Total = Product.Price * qtd;
+            Amont = amont;
+            Total = Product.Price * amont;
 
             Validate();
         }
 
-        public void ChangeProduct(Product product, int qtd)
+        public void ChangeAmont(int amont)
         {
-            Product = product;
-            Qtd = qtd;
-            Total = Product.Price * qtd;
+            Amont = amont;
 
             Validate();
         }
@@ -41,7 +39,7 @@ namespace SpaUserControl.Domain.Entities
         {
             AssertionConcern.AssertArgumentNotNull(Product, Notifications.NotNull);
             AssertionConcern.AssertArgumentNotNull(Order, Notifications.NotNull);
-            AssertionConcern.AssertArgumentNotZero(Qtd, Notifications.IsZero);
+            AssertionConcern.AssertArgumentNotZero(Amont, Notifications.IsZero);
         }
     }
 }
