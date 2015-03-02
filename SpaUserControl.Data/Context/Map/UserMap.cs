@@ -9,24 +9,7 @@ namespace SpaUserControl.Data.Context.Map
     {
         public UserMap()
         {
-            ToTable("User");
-
-            Property(x => x.UserId)
-                .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-
-            Property(x => x.Name)
-                .HasMaxLength(60)
-                .IsRequired();
-
-            Property(x => x.Email)
-                .HasMaxLength(160)
-                .HasColumnAnnotation(IndexAnnotation.AnnotationName,
-                    new IndexAnnotation(new IndexAttribute("IX_EMAIL", 1) {IsUnique = true}))
-                .IsRequired();
-
-            Property(x => x.Password)
-                .HasMaxLength(32)
-                .IsFixedLength();
+            
         }
     }
 }

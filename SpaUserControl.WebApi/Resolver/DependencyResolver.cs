@@ -13,6 +13,8 @@ namespace SpaUserControl.WebApi.Resolver
         {
             container.RegisterType<IUserRepository, UserRepository>(new HierarchicalLifetimeManager());
             container.RegisterType<IUserService, UserService>(new HierarchicalLifetimeManager());
+            container.RegisterType<IProductRepository, ProductRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IProductService, ProductService>(new HierarchicalLifetimeManager());
 
             container.RegisterType<User, User>(new HierarchicalLifetimeManager());
         }

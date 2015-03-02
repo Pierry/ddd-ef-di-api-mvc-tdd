@@ -51,6 +51,7 @@
     <Compile Include="Interfaces\Services\IItemService.cs" />
     <Compile Include="Interfaces\Services\IOrderService.cs" />
     <Compile Include="Interfaces\Services\IProductService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
     <Compile Include="Interfaces\Services\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

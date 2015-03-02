@@ -10,7 +10,7 @@ namespace SpaUserControl.Domain.Interfaces.Services
         Order GetByGuid(Guid id);
         IEnumerable<Order> GetByUserGuid(Guid id);
         void Create(User user, Item item);
-        void AddItem(Item item);
+        void AddItem(Guid id, Item item);
         void Delete(Guid id);
         void Dispose();
     }

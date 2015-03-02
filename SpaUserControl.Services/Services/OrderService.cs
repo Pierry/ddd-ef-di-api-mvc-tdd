@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SpaUserControl.Domain.Entities;
 using SpaUserControl.Domain.Interfaces.Repositories;
 
@@ -34,21 +32,28 @@ namespace SpaUserControl.Services.Services
             return _orderRepository.GetByUserGuid(id);
         }
 
-        public void AddItem(Item item)
-        {
-            throw new NotImplementedException();
-        }
-
         public void Create(User user, Item item)
         {
-            throw new NotImplementedException();
+            var order = new Order(user, item);
+            _orderRepository.Create(order);
+        }
+
+        public void AddItem(Guid id, Item item)
+        {
+            var order = _orderRepository.Get(id);
+            order.AddToItems(item);
+            _orderRepository.Update(order);
         }
 
         public void Delete(Guid id)
         {
-            throw new NotImplementedException();
+            var order = _orderRepository.Get(id);
+            _orderRepository.Delete(order);
         }
 
-       
+        public void Dispose()
+        {
+            _orderRepository.Dispose();
+        }
     }
 }

@@ -33,7 +33,7 @@ namespace SpaUserControl.Domain.Entities
 
         public void AddToItems(Item item)
         {
-            Total = Total + (item.Product.Price * item.Qtd);
+            Total = Total + (item.Product.Price * item.Amont);
             Items.Add(item);
 
             Validate();
@@ -41,7 +41,7 @@ namespace SpaUserControl.Domain.Entities
         
         private void UpdateTotal(Item item)
         {
-            Total = Total + (item.Product.Price * item.Qtd);
+            Total = Total + (item.Product.Price * item.Amont);
 
             Validate();
         }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SpaUserControl.Data.Context.Map;
+﻿using System.Data.Entity;
 using SpaUserControl.Domain.Entities;
 
 namespace SpaUserControl.Data.Context
@@ -12,17 +6,20 @@ namespace SpaUserControl.Data.Context
     public class AppContext : DbContext
     {
 
-        public AppContext() : base("AppConnectionString")
+        public AppContext() : base("AppContext")
         {
             Configuration.LazyLoadingEnabled = false;
             Configuration.ProxyCreationEnabled = false;
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Item> Items { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new UserMap());
+            //modelBuilder.Configurations.Add(new UserMap());
         }
     }
 }

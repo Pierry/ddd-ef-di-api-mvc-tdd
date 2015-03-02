@@ -8,7 +8,9 @@ namespace SpaUserControl.Domain.Interfaces.Services
     {
         IEnumerable<Product> Get(int page);
         Product GetByGuid(Guid id);
-        void ChangeData(string description, decimal price);
+        void Create(string title, string description, decimal price);
+        void ChangeData(Guid id, string description, decimal price);
         void Remove(Guid id);
+        void Dispose();
     }
 }
