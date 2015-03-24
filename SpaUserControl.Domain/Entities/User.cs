@@ -6,8 +6,8 @@ namespace SpaUserControl.Domain.Entities
 {
     public class User
     {
-        public int UserId { get; set; }
-        public Guid UserIdGuid { get; set; }
+        public int UserId { get; private set; }
+        public Guid UserIdGuid { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string Password { get; private set; }
@@ -21,6 +21,14 @@ namespace SpaUserControl.Domain.Entities
             Email = email;
 
             Validate();
+        }
+
+        public User(int userId, Guid userIdGuid, string name, string email)
+        {
+            UserId = userId;
+            UserIdGuid = userIdGuid;
+            Name = name;
+            Email = email;
         }
 
         public void SetPassword(string password, string confirmPassword)
@@ -40,9 +48,8 @@ namespace SpaUserControl.Domain.Entities
             var password = Guid.NewGuid().ToString().Substring(0, 8);
             Password = PasswordAssertionConcern.Encrypt(password);
 
-            return password;
-
             Validate();
+            return password;
         }
 
         public void ChangeName(string name)

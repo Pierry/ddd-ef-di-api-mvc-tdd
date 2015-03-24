@@ -11,3 +11,4 @@ C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\SpaUserControl.Common\o
 C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csproj.GenerateResource.Cache
 C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.dll
 C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.pdb
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csprojResolveAssemblyReference.cache

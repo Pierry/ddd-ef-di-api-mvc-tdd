@@ -1,0 +1,9 @@
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\bin\Debug\Tests.dll
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\bin\Debug\Tests.pdb
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\bin\Debug\SpaUserControl.Domain.dll
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\bin\Debug\SpaUserControl.Common.dll
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\bin\Debug\SpaUserControl.Domain.pdb
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\obj\Debug\SpaUserControl.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\obj\Debug\Tests.dll
+C:\Users\Pierry\Documents\Repositorios\ddd-ef-di-api-mvc\Tests\obj\Debug\Tests.pdb

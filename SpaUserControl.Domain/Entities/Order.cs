@@ -1,12 +1,29 @@
-﻿using SpaUserControl.Common.Resources;
-using SpaUserControl.Common.Validation;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using SpaUserControl.Common.Resources;
+using SpaUserControl.Common.Validation;
 
 namespace SpaUserControl.Domain.Entities
 {
     public class Order
     {
+        protected Order()
+        {
+        }
+
+        public Order(User user, Item item)
+        {
+            Items = new List<Item>();
+            Date = DateTime.Now;
+            OrderGuid = new Guid();
+            User = user;
+
+            AddToItems(item);
+            UpdateTotal(item);
+
+            Validate();
+        }
+
         public int OrderId { get; set; }
         public Guid OrderGuid { get; set; }
         public DateTime Date { get; private set; }
@@ -14,34 +31,17 @@ namespace SpaUserControl.Domain.Entities
         public List<Item> Items { get; private set; }
         public User User { get; set; }
 
-        protected Order()
+        public void AddToItems(Item item)
         {
-
-        }
-
-        public Order(User user, Item item)
-        {
-            Date = DateTime.Now;            
-            OrderGuid = new Guid();
-            User = user;
-
-            AddToItems(item);            
+            Items.Add(item);
             UpdateTotal(item);
 
             Validate();
         }
 
-        public void AddToItems(Item item)
-        {
-            Total = Total + (item.Product.Price * item.Amont);
-            Items.Add(item);
-
-            Validate();
-        }
-        
         private void UpdateTotal(Item item)
         {
-            Total = Total + (item.Product.Price * item.Amont);
+            Total = Total + (item.Product.Price*item.Amont);
 
             Validate();
         }
@@ -53,6 +53,5 @@ namespace SpaUserControl.Domain.Entities
             AssertionConcern.AssertArgumentNotNull(Items, Notifications.NotNull);
             AssertionConcern.AssertArgumentNotNull(User, Notifications.NotNull);
         }
-
     }
 }
