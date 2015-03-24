@@ -9,6 +9,7 @@ Aula de Interoperabilidade
 - Repository Pattern
 - Dependency Injection (Unity, Ninject)
 - EntityFramework
+- TDD
 
 
 
